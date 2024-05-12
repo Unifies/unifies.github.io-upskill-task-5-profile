@@ -181,22 +181,22 @@
     }
 
     .block{
-        display: none;
+        opacity: 0;
     }
 
     .none{
-        display: block;
+        opacity: 1;
     }
     
 }
 
 @media(min-width:992px){
     .none{
-        display: none;
+        opacity: 0;;
     }
 
     .block{
-        display: block;
+        opacity: 1;;
     }
 }
 
