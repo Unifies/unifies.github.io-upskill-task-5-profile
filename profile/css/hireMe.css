@@ -1,0 +1,45 @@
+.hireMe{
+    width: 100%;
+    background-color: #FF9000;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+.hireMeBody{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.HireMeTitle{
+    margin: 80px 0 20px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hireMeText{
+    font-size: 18px;
+}
+
+.contactDiv{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contactText{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: white;
+    color: #FF9000;
+    border-radius: 20px;
+}
+
+
+@media(max-width:600px){
+    .hireMeBody{
+        width: 90%;
+    }
+}

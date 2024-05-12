@@ -1,0 +1,220 @@
+.resumeEducation{
+    width: 90%;
+    margin: auto;
+}
+
+.moreMargin{
+    margin: 130px auto 80px !important;
+}
+
+.resumeEducationTitles{
+    text-align: center;
+}
+
+.resumeEducationTitles h3{
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: #e6e6e6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.lineDiv{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.verticalLine{
+    border-left: 2px #e6e6e6 solid;
+    height: 900px;
+    margin-top: -20px;
+    z-index: -1;
+}
+
+.verticalLine2{
+    border-left: 2px #e6e6e6 solid;
+    height: 900px;
+    margin-top: -20px;
+    z-index: -1;
+}
+
+.experiences{
+    z-index: 100;
+    margin-top: -880px;
+}
+ 
+.experience{
+    z-index: 100;
+    margin-top: -880px;
+}
+
+.workExperience{
+    width: 50%;
+    display: flex;
+    margin: 0 -40px 0 0;
+}
+
+.workExperienceTitle{
+    text-align: right;
+    padding-right: 75px;
+}
+
+.workExperienceTitle h2{
+    font-weight: 300;
+}
+
+.workExperienceTitle span{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #bfbfbf;
+}
+
+.workExperienceTitle p{
+    color: rgba(0, 0, 0, 0.7);
+}
+ 
+.briefcase{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.briefCaps{
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #FF9000;
+    color: white;
+    margin: 0 -30px;
+}
+
+.jobExperience{
+    width: 50%;
+    display: flex;
+}
+
+.jobExperienceTitle{
+    text-align: left;
+    padding-left: 75px;
+}
+
+.jobExperienceTitle h2{
+    font-weight: 300;
+}
+
+.jobExperienceTitle span{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #bfbfbf;
+}
+
+.jobExperienceTitle p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:1100px){
+    .verticalLine2{
+        border-left: 2px #e6e6e6 solid;
+        height: 950px;
+        margin-top: -20px;
+        z-index: -1;
+    }
+     
+    .experience{
+        z-index: 100;
+        margin-top: -930px;
+    }
+}
+
+@media(max-width:992px){
+
+    .resumeEducation{
+        width: 80%;
+        margin: auto;
+    }
+
+    .lineDiv{
+        display: block;
+    }
+
+    .resumeEducationTitles{
+        text-align: left;
+    }
+
+    .resumeEducationTitles h3{
+        margin-left: -30px;
+    }
+
+    .jobExperience{
+        width: 100%;
+        display: flex;
+    }
+
+    .right{
+        display: block;
+    }
+
+    .workExperience{
+        width: 100%;
+        display: flex;
+    }
+
+    .workExperienceTitle{
+        text-align: left;
+        padding-left: 75px;
+    }
+
+    .block{
+        display: none;
+    }
+
+    .none{
+        display: block;
+    }
+    
+}
+
+@media(min-width:992px){
+    .none{
+        display: none;
+    }
+
+    .block{
+        display: block;
+    }
+}
+
+@media(max-width:594px){
+    .resumeEducation{
+        width: 85%;
+        margin: auto;
+    }
+    
+    .verticalLine2{
+        border-left: 2px #e6e6e6 solid;
+        height: 1200px;
+        margin-top: -20px;
+        z-index: -1;
+    }
+     
+    .experience{
+        z-index: 100;
+        margin-top: -1130px;
+    }
+}

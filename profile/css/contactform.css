@@ -1,0 +1,88 @@
+.contactform{
+    width: 100%;
+    display: flex;
+}
+
+.background{
+    width: 50%;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+}
+
+.contactformBody{
+    width: 50%;
+}
+
+.contactformBody form{
+    width: 80%;
+    padding: 40px 0;
+    margin: auto;
+}
+
+.contactformBody form h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.inputs input{
+    width: 100%;
+    margin: 15px 0;
+    height: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Space mono";
+    color: gray;
+    border: 2px rgba(223, 223, 223, 0.8) solid;
+    border-radius: 5px;
+}
+
+.info input{
+    width: 50% !important;
+}
+
+.inputs textarea{
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Space mono";
+    color: #999999;
+    border: 2px rgba(223, 223, 223, 0.8) solid;
+    border-radius: 5px;
+}
+
+.sendMessage{
+    width: 30%;
+    text-align: center;
+}
+
+.sendMessage p{
+    padding: 10px;
+    background-color: #FF9000;
+    color: white;
+    border-radius: 20px;
+}
+
+@media(max-width:1200px){
+    .sendMessage{
+        width: 50%;
+    }
+}
+
+@media(max-width:900px){
+    .background{
+        width: 0;
+    }
+    
+    .background img{
+        display: none;
+    }
+    
+    .contactformBody{
+        width: 100%;
+    }
+}
